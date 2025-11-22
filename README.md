@@ -22,13 +22,10 @@ Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 
----
-
-## Requirements
 Run the main program:
 python main.py
 You will see this menu:
---- FILE ENCRYPTION TOOL ---
+FILE ENCRYPTION TOOL
 1. Generate a new key
 2. Encrypt a file
 3. Decrypt a file
@@ -58,25 +55,11 @@ Enter the encrypted filename:
 Enter the file name to decrypt: example.txt
 The file will be restored to its original contents.
 
-⚠️ Important Notes
+Important Notes
 Losing key.key means losing access to all encrypted files.
 Do NOT upload your key publicly.
 Encryption overwrites the original file — make backups if needed.
 Only decrypt files that were encrypted using the same key.
-
-Limitations
-No password protection (anyone with key.key can decrypt files)
-Files are overwritten instead of saving encrypted/decrypted copies separately
-No batch encryption or multi-file support yet
-No GUI — only terminal-based interaction
-Limited error handling (e.g., missing files, invalid key, corrupt file)
-
-Possible Improvements
-Add password-based key generation
-Add a GUI (Tkinter or PyQt)
-Store encrypted and decrypted files separately instead of overwriting
-Add logging, error handling, and unit tests
-Add support for encrypting entire folders
 
 Authors
 Deniz Baran Coban, Abdulsamed Say, Leon Katava
