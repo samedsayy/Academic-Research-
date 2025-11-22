@@ -13,18 +13,6 @@ The program allows you to:
 
 ---
 
-## Project Structure
-
-my_project/
-├── main.py # Main program with encryption/decryption options
-├── key.key # Encryption key (generated on first use)
-├── outputs/ # Folder for storing results or logs (optional)
-├── requirements.txt # Install dependencies from here
-└── README.md # Documentation (this file)
-
-
----
-
 ## Requirements
 
 This project uses Python 3.8+ and the `cryptography` library.

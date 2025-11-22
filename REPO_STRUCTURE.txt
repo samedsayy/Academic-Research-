@@ -1,1 +1,10 @@
 
+Academic-Research-/
+├── main.py # Main program for encryption/decryption
+├── README.md # Explainins how to run the project
+├── requirements.txt # Python dependencies
+├── .gitignore # Files to be ignored by Git
+├── repo_structure.md # Repository overview
+├── key.key # Encryption key generated at runtime, ignored by Git
+├── outputs/ # Folder for storing results also ignored by Git
+└── results.txt # Example output file 
